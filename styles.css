@@ -4,9 +4,10 @@
 
 /*HEADER BLOCK*/
 h1{
-  font-size: 50px;
+  font-size: 100px;
   font-weight: normal;
   height: 40px;
+  padding-bottom: 20px;
 }
 
 .header{
@@ -16,15 +17,16 @@ h1{
   display: inline-block;
   padding-left: 50px;
   padding-top: 75px;
-  font-size: 20px;
+  font-size: 40px;
+  margin: 0 auto;
 }
 
 .border{
   border: 1px solid;
   border-color: white;
   border-radius: 5px;
-  width: 130px;
-  font-size: 25px;
+  width: 200px;
+  font-size: 40px;
   padding: 2px;
   text-align: center;
 }
@@ -46,7 +48,7 @@ h2{
   text-align: center;
 }
 
-.monster, .random, .rachel{
+.quote{
   width: 225px;
   display: inline-block;
   vertical-align: top;
@@ -71,6 +73,57 @@ h2{
   width: 1000px;
 }
 
+/*GOODS BLOCK*/
+.square{
+  width: 150px;
+  border: 1px solid;
+  border-color: gray;
+  padding: 5px;
+  margin: 10px;
+}
 
+.goods{
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  postion: absolute;
+}
+
+/*FORM*/
+.form{
+  background-color: rgb(43,12,0);
+  color: white;
+  width: 1000px;
+}
+
+form{
+  width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.form h2{
+  color: white;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.form div{
+  padding: 5px;
+  font-size: 20px;
+  font-style: bold;
+}
+
+input{
+  border-radius: 5px;
+  display: block;
+  width: 230px;
+  height: 30px;
+}
+
+select{
+  display: block;
+  width: 150px;
+}
 
 
