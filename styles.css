@@ -1,1 +1,76 @@
+*{
+  font-family: Helvetica;
+}
+
+/*HEADER BLOCK*/
+h1{
+  font-size: 50px;
+  font-weight: normal;
+  height: 40px;
+}
+
+.header{
+  color: white;
+  background-color: rgb(132,84,31);
+  width: 1000px;
+  display: inline-block;
+  padding-left: 50px;
+  padding-top: 75px;
+  font-size: 20px;
+}
+
+.border{
+  border: 1px solid;
+  border-color: white;
+  border-radius: 5px;
+  width: 130px;
+  font-size: 25px;
+  padding: 2px;
+  text-align: center;
+}
+
+/*CONTENT BLOCK*/
+h2{
+  text-align: center;
+  color: rgb(162,22,0);
+  border-bottom: 2px solid;
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.content{
+  display: inline-block
+  width: 1000px;
+  text-align: center;
+}
+
+.monster, .random, .rachel{
+  width: 225px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  padding: 20px;
+}
+
+.source{
+  font-weight: bold;
+  vertical-align: top;
+  font-size: 15px;
+}
+
+.source img{
+  border-radius: 100%;
+  width: 35px;
+  overflow: hidden;
+}
+
+.bigcookie{
+  height: 300px;
+  width: 1000px;
+}
+
+
+
 
