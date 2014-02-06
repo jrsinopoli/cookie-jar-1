@@ -18,7 +18,8 @@ h1{
   padding-left: 50px;
   padding-top: 75px;
   font-size: 40px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .border{
@@ -68,9 +69,11 @@ h2{
   overflow: hidden;
 }
 
+/*COOKIE DIVIDER*/
 .bigcookie{
   height: 300px;
   width: 1000px;
+  margin: 0 auto;
 }
 
 /*GOODS BLOCK*/
@@ -86,7 +89,6 @@ h2{
   width: 800px;
   margin: 0 auto;
   text-align: center;
-  postion: absolute;
 }
 
 /*FORM*/
